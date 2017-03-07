@@ -1,0 +1,50 @@
+body {
+	text-align: center;
+}
+
+#mainbox {
+	font-size: 0px;
+	width: 400px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#mainbox div {
+	width: 88px;
+	height: 88px;
+	border: 1px solid #AAAAAA;
+	margin: 0px;
+	padding: 0px;
+	transition:all 1s;
+}
+
+
+#pic-1, #pic-2, #pic-3, #pic-4 { display: inline-block; }
+#pic-5, #pic-6, #pic-7, #pic-8 { display: inline-block; }
+#pic-9, #pic-10, #pic-11, #pic-12 { display: inline-block; }
+#pic-13, #pic-14, #pic-15, #pic-16 { display: inline-block; }
+
+button {
+	color: #000000;
+	width: 120px;
+	height: 40px;
+	font-size: 16pt;
+}
+
+.pic1 { background-image: url("images/panda_01.gif"); }
+.pic2 { background-image: url("images/panda_02.gif"); }
+.pic3 { background-image: url("images/panda_03.gif"); }
+.pic4 { background-image: url("images/panda_04.gif"); }
+.pic5 { background-image: url("images/panda_05.gif"); }
+.pic6 { background-image: url("images/panda_06.gif"); }
+.pic7 { background-image: url("images/panda_07.gif"); }
+.pic8 { background-image: url("images/panda_08.gif"); }
+.pic9 { background-image: url("images/panda_09.gif"); }
+.pic10 { background-image: url("images/panda_10.gif"); }
+.pic11 { background-image: url("images/panda_11.gif"); }
+.pic12 { background-image: url("images/panda_12.gif"); }
+.pic13 { background-image: url("images/panda_13.gif"); }
+.pic14 { background-image: url("images/panda_14.gif"); }
+.pic15 { background-image: url("images/panda_15.gif"); }
+.pic16 { background-image: url("images/panda_16.gif"); }

@@ -1,0 +1,38 @@
+extends layout
+
+block content
+	link(rel='stylesheet', href='/stylesheets/sign.css')
+	div(id = 'box')
+		h1(id = 'title') 用户注册
+		form(method='post')
+			ul
+				li  用户名
+				li
+					input(name = 'username' type='text' value=user.username)
+				li  密码
+				li
+					input(name = 'password' type='password' value=user.password)
+				li  确认密码
+				li
+					input(name = 'rpassword' type='password' value=user.password)
+				li  学号
+				li
+					input(name = 'id' type='text' value=user.id)
+				li  电话
+				li
+					input(name = 'phone' type='text' value=user.phone)
+				li  邮箱
+				li
+					input(name = 'email' type='text' value=user.email)
+				li
+					input(id = 'clear' class = 'button' value='重置' type='button')
+					input(class = 'button' type='submit' value='提交')
+				li
+					div.switchbutton
+						a(href='/signin') 登录
+
+	div(id = 'tips')
+		ul(id = 'errormessage' class = 'error')
+		div(id = 'registeinforepeat' class = 'error')
+			p(id = 'repeat') #{e}
+	script(type='text/javascript' src='javascripts/validator.js')

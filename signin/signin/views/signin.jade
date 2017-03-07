@@ -1,0 +1,25 @@
+doctype html
+html
+	head
+		title 登录
+		link(rel='stylesheet', href='/stylesheets/register.css')
+		script(type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.js')
+		script(type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.js')
+	body
+		h1 用户登录
+		div#panel
+			form(method='post')
+				table
+					tr
+						td  用户名: 
+						td	<input id="name" name="name" value=#{user.name}>
+					tr
+						td  密码：
+						td <input id="password" type='password' name="password" value=#{user.password}>
+				div#botton
+					input(value='重置' type='reset' id="reset")
+					input(value='提交' type='submit')
+				br
+				a(href='/signup') 注册
+			br
+			ul #{errormessage}

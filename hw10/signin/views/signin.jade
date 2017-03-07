@@ -1,0 +1,25 @@
+extends layout
+
+block content
+	link(rel='stylesheet', href='/stylesheets/sign.css')
+	div(id = 'box')
+		h1(id = 'title') 用户登录
+		form(method='POST')
+			ul
+				li 用户名
+				li
+					input(name = 'username',type='text',value=user.username)
+				li 密码
+				li
+					input(name = 'password',type='password',value=user.password)
+				li
+					input(id = 'clear',class = 'button',value='重置' type='button')
+					input(class = 'button',type='submit',value='提交')
+				li
+					div.switchbutton
+						a(href='/regist') 注册
+
+	div(id = 'tips')
+		ul(id = 'errormessage' class = 'error')
+		div(id = 'registeinforepeat' class = 'error')
+			p(id = 'repeat') #{e}

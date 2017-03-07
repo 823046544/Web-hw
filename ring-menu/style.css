@@ -1,0 +1,242 @@
+div#bottom-positioner {
+	position:absolute;
+	bottom:0;
+	width:170px;
+	height:260px;
+	margin-left:41%;
+}
+div#button {
+	width:26px;
+	height:26px;
+	position:absolute;
+	top:153px;
+	left:60px;
+}
+div#info-bar {
+	width:130px;
+	height:130px;
+	border-radius:50%;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	background-color:#7E7E7E;
+	margin-left:20px;
+	margin-right:20px;
+	position:relative;
+	top:-62px;
+	left:-65px;
+	transform:scale(0.2,0.2);
+	-webkit-transform:scale(0.2,0.2);
+	-o-transform:scale(0.2,0.2);
+	-moz-transform:scale(0.2,0.2);
+	transition-delay: 0.5s;
+	-webkit-transition-delay: 0.5s;
+	-moz-transition-delay: 0.5s;
+	-o-transition-delay: 0.5s;
+	transition:0.5s;
+	-moz-transition:0.5s, -moz-transform 0.5s;
+	-webkit-transition:0.5s, -webkit-transform 0.5s;
+	-o-transition:0.5s, -o-transform 0.5s;
+	opacity:0;
+}
+div#button:hover div#info-bar {
+	position:relative;
+	top:-168px;
+	transform:scale(1,1);
+	-webkit-transform:scale(1,1);
+	-o-transform:scale(1,1);
+	-moz-transform:scale(1,1);
+	opacity:1;
+}
+ul {
+	list-style:none;
+}
+.mine {
+	font-family:Arial;
+	display:inline;
+	color:#00FA9A;
+	font-weight:bold;
+}
+.mine span {
+	margin-left:1px;
+	vertical-align:40%;
+	font-size:15pt;
+}
+.user {
+	padding-top:10px;
+}
+.posted {
+	margin-left:-20px;
+	margin-right:5px;
+}
+.page span {
+	font-weight:bold;
+	color:#FFFFFF;
+	font-size:15pt;
+}
+.comment span {
+	font-size:22pt;
+	vertical-align:bottom;
+}
+.user span{
+	vertical-align:50%;
+}
+div#control-ring-container {
+	border-radius:50%;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	width:160px;
+	height:160px;
+	position:absolute;
+	top:-58px;
+	left:-60px;
+	transform:scale(0.1625,0.1625);
+	-webkit-transform:scale(0.1625,0.1625);
+	-moz-transform:scale(0.1625,0.1625);
+	-o-transform:scale(0.1625,0.1625);
+	transition-delay: 0.5s;
+	-webkit-transition-delay: 0.5s;
+	-moz-transition-delay: 0.5s;
+	-o-transition-delay: 0.5s;
+	transition:0.5s;
+	-moz-transition:0.5s, -moz-transform 0.5s;
+	-webkit-transition:0.5s, -webkit-transform 0.5s;
+	-o-transition:0.5s, -o-transform 0.5s;
+	opacity:0;
+}
+div#button:hover div#control-ring-container {
+	transform:scale(1,1);
+	-webkit-transform:scale(1,1);
+	-o-transform:scale(1,1);
+	-moz-transform:scale(1,1);
+	opacity:1;
+}
+.button {
+	background-color:#7E7E7E;
+	border-radius:50%;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	width:35px;
+	height:35px;
+}
+.button img {
+	padding-top:6px;
+	padding-left:6px;
+}
+.setting img {
+	position:relative;
+	top:-8px;
+}
+.unread {
+	margin:0px;
+	padding:0px;
+	width:16px;
+	height:16px;
+	font-size:8pt;
+	float:right;
+	background-color:#FF0000;
+	text-align:center;
+	vertical-align:10%;
+	border-radius:50%;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	position:relative;
+	left:5px;
+	top:-30px;
+	font-family:Arial;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+div#button:hover .apb {
+	transform:scale(1,1);
+	-webkit-transform:scale(1,1);
+	-o-transform:scale(1,1);
+	-moz-transform:scale(1,1);
+	transition:0.5s;
+	-moz-transition:0.5s, -moz-transform 0.5s;
+	-webkit-transition:0.5s, -webkit-transform 0.5s;
+	-o-transition:0.5s, -o-transform 0.5s;
+}
+div#button:hover .icon {
+	opacity:1;
+}
+div#button:hover .icon2 {
+	opacity:0;
+}
+div#button:hover div#control-ring-container {
+	transform:scale(1,1);
+	-webkit-transform:scale(1,1);
+	-o-transform:scale(1,1);
+	-moz-transform:scale(1,1);
+	opacity:1;
+}
+.mask {
+	position:relative;
+	top:15px;
+	left:-31px;
+}
+.history {
+	position:relative;
+	top:18px;
+	left:-40px;
+}
+.message {
+	position:relative;
+	top:20px;
+	left:-23px;
+}
+.setting {
+	position:relative;
+	top:1px;
+	left:12px;
+}
+.setting img {
+	padding-top:1px;
+}
+.sign {
+	position:relative;
+	top:-38px;
+	left:52px;
+}
+.apb, .icon{
+	width:72px;
+	height:72px;
+}
+.apb {
+	position:relative;
+	top:-165px;
+	left:-15px;
+	transform:scale(0.36,0.36);
+	-webkit-transform:scale(0.36,0.36);
+	-o-transform:scale(0.36,0.36);
+	-moz-transform:scale(0.36,0.36);
+}
+.icon2 {
+	border-radius:50%;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	width:28px;
+	height:28px;
+	background-color:#6E6E6E;
+	position:relative;
+	top:-45px;
+	left:21px;
+	opacity:1;
+	transform:scale(2.7,2.7);
+	-webkit-transform:scale(2.7,2.7);
+	-o-transform:scale(2.7,2.7);
+	-moz-transform:scale(2.7,2.7);
+}
+.icon2 img {
+	padding-top:3px;
+}
+.icon {
+	border-radius:50%;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	background-color:#0000CD;
+	opacity:0;
+}
+.icon img {
+	padding-top:10px;
+	padding-left:2px;
+}

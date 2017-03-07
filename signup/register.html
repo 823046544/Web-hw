@@ -1,0 +1,40 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>register</title>
+		<link rel="stylesheet" type="text/css" href="register.css">
+		<script type="text/javascript" src="register.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.js"></script>
+	</head>
+	<body>
+		<h1>用户注册</h1>
+		<div id="panel">
+			<form action="_signin" method="post">
+				<table>
+					<tr>
+						<td>用户名：</td>
+						<td><input id="name" name="name"></td>
+					</tr>
+					<tr>
+						<td>  学号：</td>
+						<td><input id="id" name="id"></td>
+					</tr>
+					<tr>
+						<td>  电话：</td>
+						<td><input id="phone" name="phone"></td>
+					</tr>
+					<tr>
+						<td>  邮箱：</td>
+						<td><input id="email" name="email"></td>
+					</tr>
+				</table>
+				<br/>
+				<div id="button">
+					<input value="重置" type='button' id="reset">
+					<input value="提交" type="submit">
+				</div>
+			</form>
+		</div>
+	</body>
+</html>

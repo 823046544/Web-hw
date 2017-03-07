@@ -1,0 +1,37 @@
+doctype html
+html
+	head
+		title 注册
+		link(rel='stylesheet', href='/stylesheets/register.css')
+		script(type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.js')
+		script(type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.js')
+	body
+		h1 用户注册
+		div#panel
+			form(method='post')
+				table
+					tr
+						td  用户名: 
+						td	<input id="name" name="name" value=#{user.name}>
+					tr
+						td  密码：
+						td <input id="password" type='password' name="password" value=#{user.password}>
+					tr
+						td  重复密码：
+						td <input id="repassword" type='password' name="repassword" value=#{user.repassword}>
+					tr
+						td  学号：
+						td <input id="id" name="id" value=#{user.id}>
+					tr
+						td  电话：
+						td <input id="phone" name="phone" value=#{user.phone}>
+					tr
+						td  邮箱：
+						td <input id="email" name="email" value=#{user.email}>
+				div#botton
+					input(value='重置' type='reset' id="reset")
+					input(value='提交' type='submit')
+				br
+				a(href='/signin') 登录
+			br
+			ul #{errormessage}

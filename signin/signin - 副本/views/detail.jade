@@ -1,0 +1,16 @@
+doctype html
+html
+	head
+		title= title
+		link(rel='stylesheet', href='/stylesheets/register.css')
+	body
+		h1 用户详情
+		div#panel
+			p 用户名: 
+				span #{user.name}
+			p 学号: 
+				span #{user.id}
+			p 电话: 
+				span #{user.phone}
+			p 邮箱: 
+				span #{user.email}

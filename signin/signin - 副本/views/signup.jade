@@ -1,0 +1,27 @@
+doctype html
+html
+	head
+		title register
+		link(rel='stylesheet', href='/stylesheets/register.css')
+		script(type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.js')
+		script(type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.js')
+	body
+		h1 用户注册
+		div#panel
+			form(method='post')
+				table
+					tr
+						td  用户名: 
+						td	<input id="name" name="name">
+					tr
+						td  学号：
+						td <input id="id" name="id">
+					tr
+						td  电话：
+						td <input id="phone" name="phone">
+					tr
+						td  邮箱：
+						td <input id="email" name="email">
+				div#botton
+					input(value='重置' type='button' id=reset)
+					input(value='提交' type='submit')

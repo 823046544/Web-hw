@@ -1,0 +1,59 @@
+/*辅助线
+#main div{
+	border: 1px solid blue;
+}*/
+
+body {
+	overflow: hidden;
+}
+
+#main {
+	margin-top: 50px;
+}
+#head {
+	position: relative;
+	width: 255px;
+	height: 70px;
+	text-align: center;
+	margin: auto;
+}
+
+#head p {
+	padding-top: 10px;
+	margin: 0 auto;
+	font-size: 30pt;
+	font-weight: 900;
+	color: rgb(39, 125, 31);
+}
+
+#calc {
+	width: 480px;
+	height: 460px;
+	border: 5px solid rgb(0, 0, 0);
+	margin: auto;
+}
+
+#board {
+	width: 436px;
+	height: 34px;
+	margin: 14px 21px 14px 21px;
+	border: 2px solid rgb(152, 152, 152);
+	float: left;
+	text-align: right;
+	padding: 5px 0px 0px 0px;
+	font-size: 20pt;
+}
+
+.bottom {
+	margin-left: 15px;
+	margin-top: 10px;
+	float: left;
+	width: 99px;
+	height: 62px;
+	text-align: center;
+	font-size: 15pt;
+	font-weight: bold;	
+}
+
+.bottom p {	
+}

@@ -1,0 +1,40 @@
+h1, h2 {
+	text-align: center;
+}
+table {
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+}
+table td, th{
+	border: 1px solid #C0C0C0;
+}
+.normal {
+	background-color: #031B7D;
+	color: #FFFFFF;
+}
+
+.up, .down{
+	background-color: #A6AFFC;
+	color: #FFFFFF;
+}
+
+.up {
+	background-image: url("ascend.png");
+	background-position: 90% 50%;
+	background-repeat: no-repeat;
+}
+
+.down {
+	background-image: url("descend.png");
+	background-position: 90% 50%;
+	background-repeat: no-repeat;
+}
+
+
+#todo, #staff {
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #C0C0C0;
+}
